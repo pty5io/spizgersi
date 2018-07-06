@@ -32,7 +32,7 @@ a {
 
 nav {
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   box-shadow: 0 3px 15px rgba(0,0,0,.2);
   color: #FAF8FF;
@@ -237,6 +237,10 @@ footer {
 
   body {
     padding-top: 53px;
+  }
+
+  nav {
+      position: fixed;
   }
   .name {
     float: left;
